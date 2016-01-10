@@ -8,8 +8,8 @@
 DEBUG = True
 
 # Make these unique, and don't share it with anybody.
-SECRET_KEY = "qw+mkb^ior^t#ljb&npmmbcs+7yj2l%up-n(185jl+l)gp1vah"
-NEVERCACHE_KEY = "-(doht0vvy^ot7=mjfgxf8d_=fl9cg$bxk$!q%he)i9g$922#h"
+SECRET_KEY = "*yqo7vq4xcjmk8rw01x_pb16+e0h$gcjtgio4#kgz6fub$%f)"
+NEVERCACHE_KEY = "rk+cuw+%ljgx@_=d5^yhym8f+wzob^m88)6&(f#9sp3^_65#_!"
 
 DATABASES = {
     "default": {
