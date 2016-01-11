@@ -5,11 +5,11 @@
 # have to be manually restarted because changes will not be noticed
 # immediately.
 
-DEBUG = True
+DEBUG = False
 
 # Make these unique, and don't share it with anybody.
-SECRET_KEY = "f22ck9i4-eza-1-(_8!*f&2^q-=p4v(0h%t6yyc4urbvn3*+zk"
-NEVERCACHE_KEY = "5+x!$(efki+!i+@0c@cw%qgenx&zhrldg!$^=tkx**+uzjkcd6"
+SECRET_KEY = "c_wg^t6keo^30bjkq*w8@60f9o)_nn6f5&4m!u)4&k-%p-rh-7"
+NEVERCACHE_KEY = "ke_38b)o*2ko9335g%v*#0c-p_w6&qg5uis=($c-agt#db3u1e"
 
 DATABASES = {
     "default": {
@@ -33,7 +33,7 @@ DATABASES = {
 ###################
 
 # Domains for public site
-ALLOWED_HOSTS = ["benyarges.com"]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 # These settings are used by the default fabfile.py provided.
 # Check fabfile.py for defaults.
